@@ -7,11 +7,12 @@
 body {
     background-color: #c5cac0;
 }
+/* grouping the header and footer attributes */
 header, footer {
     background-color: #2a607c;
     font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
-
+/* a header */
 header {
     padding: 75px;
     background-color: #2a607c;
@@ -20,7 +21,7 @@ header {
     width: 100%;
     
 }
-
+/* including a class for the h1 of the header */
 .header h1 {
     display: inline-block;
     font-size: 60px;
@@ -31,7 +32,7 @@ header {
     
 
 }
-
+/* including a class for the header */
 .header h1 .seo {
     color: #d9dcd6;
     background-color:  #2a607c;
@@ -88,7 +89,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* adding the aside tag */
 aside {
     margin: 20px;
     padding: 10px;
@@ -108,21 +109,27 @@ aside {
     padding: 35px;
     text-align: center;
 }
-
-.benefit-brand h3,.benefit-lead h3,.benefit-cost h3 { 
+/* same propertieskukk */
+.benefit-brand h3,
+.benefit-lead h3,
+.benefit-cost h3 { 
     margin: 10px;
     text-align: center;
     color: white;
     height: auto;
 }
-
-.benefit-cost img,.benefit-lead img,.benefit-brand img  { 
+/* same properties */
+.benefit-cost img,
+.benefit-lead img,
+.benefit-brand img  { 
     display: block;
     margin: 10px auto;
     max-width: 100px;
 }
-
-.social-media-marketing,.search-engine-optimization,.online-reputation-management {
+/* grouping the clases with same properties */
+.social-media-marketing,
+.search-engine-optimization,
+.online-reputation-management {
     margin: 20px;
     padding: 50px;
     height: 300px;
@@ -136,14 +143,18 @@ aside {
     width: 100%;
     box-sizing: border-box;
 }
-
-.social-media-marketing img,.online-reputation-management img,.search-engine-optimization img {
+/* grouping the classes with same properties */
+.social-media-marketing img,
+.online-reputation-management img,
+.search-engine-optimization img {
     max-height: 200px;
     margin: 20px;
     padding: 20px;
 }
-
-.social-media-marketing h2,.online-reputation-management h2,.search-engine-optimization h2 {
+/* grouping the elements which have same styles */
+.social-media-marketing h2,
+.online-reputation-management h2,
+.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -151,7 +162,9 @@ aside {
 footer {
     padding: 40px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* i am adding other font types should in case the first is absent from a particular browser  */
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: #2a607c;
     width: 100%;
@@ -164,5 +177,3 @@ footer {
     font-size: 10px;
     color: white;
 }
-
-
